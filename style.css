@@ -73,6 +73,17 @@ img.twitter-icon {
 	margin-left: 0px;
 	width: 3%;
 }
+img.attribution-icon {
+	position:relative;
+	/*margin-left:auto;*/
+	margin-top: 50px;
+	bottom: 30px;
+	width: 3%;
+}
+
+.attribution {
+	text-align: center;
+}
 
 .nav-bar {
     font-weight: 400;
