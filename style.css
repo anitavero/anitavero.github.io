@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    color: #333;
+    margin: auto;
+}
+
+.container{
+	width: 700px;
+	margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 300;
+}
+
+p,ul,li,.txt-panel {
+    font-size: 11pt;
+}
+
+p {
+	text-align:justify
+}
+
+.txt-panel{
+	position: relative;
+	left:130px;
+	top: 10px;
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 0px;
+}
+
+li {
+	padding-bottom:10px;
+}
+
+img.icon {
+	position:relative;
+	margin-left:0px;
+	margin-top: 10px;
+	bottom: 30px;
+	width: 3%;
+}
+
+img.github-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 7%;
+}
+
+img.medium-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 11%;
+}
+
+img.twitter-icon {
+	position:relative;
+	bottom: 30px;
+	margin-left: 0px;
+	width: 3%;
+}
+
+.nav-bar {
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+a {
+	text-decoration: none;
+	color: #027CA5;
+}
+
+a:hover {
+    color: #00bfff;
+}
+
+a.section {
+	text-decoration: none;
+	color: black;
+}
+
+a.section:hover {
+    color: black;
+}
+
+.round-pic {
+	background: url("img/picture.jpg") no-repeat;
+	background-size: cover;
+	background-position: -30px 0px;
+	height:125px;
+	width:110px;
+	border-radius:50%;
+	overflow:hidden;
+	position: relative;
+	margin-left: 0px; 
+	bottom: 150px;
+	box-shadow: 0 0 10px 0px #000 inset;
+}
+
+img.logo {
+    position: relative;
+    bottom: 120px;
+	left: 470px;
+    width: 30%;
+}
+
+.holder {   
+  width: auto;
+  display: inline-block;    
+}
+
+.hcontent {
+	margin: auto;
+	height: 180px;
+	width: 700px;
+	color: black;
+}
+
+.header {
+	margin: auto;
+	width: 100%;
+	/*background-color: #ddd;*/
+	background: url("img/Cambride father leaf rotated saturated sepia.jpg") no-repeat;
+	background-position: center;
+	background-size: cover; 
+	/*border-bottom: 1px solid #aaa;*/
+	margin-bottom: 10px;
+}
+
+.ribbon {
+    background: #eee;
+    height: 100px;
+	margin-top: 100px;
+}
+
+hr {
+	border: 0; 
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	left: 0px;
+	width: 900px;
+}
+
+hr.section {
+	width: 900px;
+}
+
+hr.soft{
+  width: 100%;
+}
